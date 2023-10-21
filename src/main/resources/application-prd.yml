@@ -2,7 +2,7 @@ spring:
   profiles:
     active: DEV, PRD
   datasource:
-    url: jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
+    url: jdbc:postgresql://postgres:lUUYML0lUbeF7yqwJfmF@containers-us-west-61.railway.app:7464/railway
     username: ${PGUSER}
     password: ${PGPASSWORD}
   jpa:
